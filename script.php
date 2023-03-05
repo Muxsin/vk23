@@ -63,6 +63,6 @@ if ($mapPrices[$targetCell[0]][$targetCell[1]] === -1) {
     }
 
     foreach(array_reverse($path) as $item) {
-        echo "<div class=''>$item[0] $item[1]</div>";
+        echo "$item[0] $item[1]";
     }
 }
